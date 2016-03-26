@@ -12,7 +12,7 @@ docker build .
 ## Using the image
 
 ```sh
-docker run -v <host_dir>:<container_dir> openlabs/docker-wkhtmltopdf <container_dir>/<your_resume_markdown_file>
+docker run -v <host_dir>:<container_dir> cheyang/markdown_resume_cn <container_dir>/<your_resume_markdown_file>
 ```
 
 The mounted volume can be used to send local markdown file and to save  

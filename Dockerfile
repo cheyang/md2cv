@@ -14,7 +14,7 @@ RUN apt-get install -y fonts-wqy-microhei \
                      ttf-wqy-zenhei && \
     				 fc-cache -f -v
 
-ADD resume.css /usr/local/lib/node_modules/markdown-resume/assets/css
+ADD ./resume.css /usr/local/lib/node_modules/markdown-resume/assets/css/resume.css
 
 ENTRYPOINT ["nodejs", "/usr/local/lib/node_modules/markdown-resume/bin/md2resume"]
 
