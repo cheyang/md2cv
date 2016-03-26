@@ -1,5 +1,5 @@
 # md2cv Docker Container
-Markdown to curriculum vitae(html or pdf)
+Markdown to curriculum vitae(html or pdf) for Chinese
 
 This docker image lets you run MarkdownResumeTo html or pdf in a docker container.
 
